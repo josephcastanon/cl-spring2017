@@ -1,0 +1,36 @@
+h1 {
+  color: rgba(0,100,0,0.5);
+}
+
+@font-face {
+  src:url("Quicksand_Bold.otf");
+  font-family: "nestlequick";
+  font-weight: bold;
+}
+
+p {
+  font-family: "nestlequick", sans-serif;
+}
+
+a {
+  color: rgba(200,200,200,1);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(200,0,100,1);
+  text-decoration: underline;
+  cursor: crosshair;
+}
+
+a:focus {
+  color: green;
+}
+
+a:active {
+  color: rgba(0,0,0,1);
+}
+
+/*a:visited {
+  color: rgba(0,0,255,1);
+}*/
